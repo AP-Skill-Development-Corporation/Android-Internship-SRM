@@ -1,1 +1,1 @@
-# Android-Internship-SRM
+# Android Application Development - Internship - SRM
