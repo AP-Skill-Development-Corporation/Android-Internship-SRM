@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="Toast"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:id="@+id/toast"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="100sp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="0.8"
+        android:background="#FFC107"
+        android:text="0"
+        android:textColor="#3F51B5"
+        android:id="@+id/textcount"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="Count"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:id="@+id/countInc"/>
+
+
+</LinearLayout>
