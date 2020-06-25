@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="5dp"
     tools:context=".MainActivity">
 
     <Button
@@ -13,9 +14,10 @@
         android:layout_height="0dp"
         android:layout_weight="0.1"
         android:text="Toast"
-        android:background="#3F51B5"
+        android:background="#380495"
         android:textColor="#FFFFFF"
         android:id="@+id/toast"
+        android:onClick="display"
         />
 
     <TextView
@@ -24,16 +26,17 @@
         android:layout_height="0dp"
         android:gravity="center"
         android:layout_weight="0.8"
-        android:background="#FFC107"
+        android:background="#D1E604"
         android:text="0"
-        android:textColor="#3F51B5"
+        android:textColor="#03188E"
         android:id="@+id/textcount"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.1"
         android:text="Count"
-        android:background="#3F51B5"
+        android:background="#380495"
         android:textColor="#FFFFFF"
         android:id="@+id/countInc"/>
 
