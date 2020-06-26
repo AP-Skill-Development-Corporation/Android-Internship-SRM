@@ -1,6 +1,7 @@
 package com.example.countapp;
 
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -28,12 +29,21 @@ public class MainActivity extends AppCompatActivity {
                 // Action
                 a++;
                 tv.setText(""+a);
-
             }
         });
-
+        if (savedInstanceState!=null){
+            String s = savedInstanceState.getString("sai");
+            a = Integer.parseInt(s);
+            tv.setText(""+a);
+        }
     }
 
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        outState.putString("sai",tv.getText().toString());
+    }
 
     public void display(View view) {
         //Action
