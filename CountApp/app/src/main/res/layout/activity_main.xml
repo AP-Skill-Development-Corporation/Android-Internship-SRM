@@ -19,7 +19,6 @@
         android:id="@+id/toast"
         android:onClick="display"
         />
-
     <TextView
         android:layout_width="match_parent"
         android:textSize="100sp"
@@ -31,14 +30,18 @@
         android:textColor="#03188E"
         android:id="@+id/textcount"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.1"
-        android:text="Count"
-        android:background="#380495"
-        android:textColor="#FFFFFF"
-        android:id="@+id/countInc"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:text="Count"
+            android:background="#380495"
+            android:textColor="#FFFFFF"
+            android:id="@+id/countInc"/>
+
+
 
 
 </LinearLayout>
