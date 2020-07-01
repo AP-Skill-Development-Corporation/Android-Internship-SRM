@@ -50,3 +50,7 @@
 <p align="center">
 <img  src="https://github.com/AP-Skill-Development-Corporation/Android-Internship-SRM/blob/master/Images/TaksImages/login.PNG">
 </p>
+
+
+## July1st - 2020
+### Task1:[ExplicitIntent Codelab](https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/index.html?index=..%2F..%2Fandroid-training#0)
