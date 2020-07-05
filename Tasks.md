@@ -66,7 +66,8 @@
 ### Task-5 
 ### [ExplicitIntent Codelab](https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/index.html?index=..%2F..%2Fandroid-training#0)
 
-## July 03 - 2020
+## 03-07-2020
+
 ### Task-6 (Registartion Form using Data Parsing)
 Create a one new Android Studio project with the name of **RegistarationForm**. In that Project you should design one registration form with the given specified fields.
 i.e
