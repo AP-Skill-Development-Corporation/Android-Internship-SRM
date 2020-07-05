@@ -85,7 +85,7 @@ i.e
 ## 04-07-2020
 
 ### Task 7(Context Menu):
-* Requirements For Task -5
+* Requirements For Task -7
   - Create Start new Android Project with empty Activity
   - Create TextView or Button or ListView (In Case you want implement ListView you should create ArrayAdapter for getting array data)
   - When we are longpress any view we need to display context menu.
@@ -101,7 +101,7 @@ i.e
 
 
 ### Task 8(Option Menus Implementation):
-* Requirements For Task -6
+* Requirements For Task -8
   - Create Start new Android Project with empty Activity
   - Implement Options Menu
   - Create Item like (Share, Dail, Gallery)
