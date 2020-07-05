@@ -56,7 +56,7 @@
 [ExplicitIntent Codelab](https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/index.html?index=..%2F..%2Fandroid-training#0)
 
 ### Task 5(Context Menu):
- * Requirements For Task -5
+* Requirements For Task -5
   - Create Start new Android Project with empty Activity
   - Create TextView or Button or ListView (In Case you want implement ListView you should create ArrayAdapter for getting array data)
   - When we are longpress any view we need to display context menu.
@@ -72,7 +72,7 @@
 
 
 ### Task 6(Option Menus Implementation):
- * Requirements For Task -6
+* Requirements For Task -6
   - Create Start new Android Project with empty Activity
   - Implement Options Menu
   - Create Item like (Share, Dail, Gallery)
