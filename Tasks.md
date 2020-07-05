@@ -58,7 +58,7 @@
 
 ### Task-4 (Sharing Text & My Camera)
 <p align="center">
-<img  src="https://github.com/mastan511/Android-Internship-SRM/blob/master/ImplicitIntentTasks.png?raw=true">
+<img  src="https://raw.githubusercontent.com/AP-Skill-Development-Corporation/Android-Internship-SRM/master/Images/TaksImages/ImplicitIntentTasks.png">
 </p>
 
 ## 01-07-2020
@@ -78,7 +78,7 @@ i.e
 
 
 <p align="center">
-<img  src="https://github.com/mastan511/Android-Internship-SRM/blob/master/Images/TaksImages/july03_task.PNG?raw=true" width=500 height=350>
+<img  src="https://raw.githubusercontent.com/AP-Skill-Development-Corporation/Android-Internship-SRM/master/Images/TaksImages/july03_task.PNG" width=500 height=350>
 </p>
 
 
