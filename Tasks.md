@@ -1,5 +1,7 @@
 ## Android Internship Tasks
 
+## 27-06-2020
+
 ### Task-1(Count App)
 
   * Requirements For Task -1
@@ -52,18 +54,20 @@
 </p>
 
 
-## June 29th-2020
-### Task-4
+## 29-06-2020
+
+### Task-4 (Sharing Text & My Camera)
 <p align="center">
 <img  src="https://github.com/mastan511/Android-Internship-SRM/blob/master/ImplicitIntentTasks.png?raw=true">
 </p>
 
-## July1st - 2020
-### Task-5
+## 01-07-2020
+
+### Task-5 
 ### [ExplicitIntent Codelab](https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/index.html?index=..%2F..%2Fandroid-training#0)
 
 ## July 03 - 2020
-### Task-6
+### Task-6 (Registartion Form using Data Parsing)
 Create a one new Android Studio project with the name of **RegistarationForm**. In that Project you should design one registration form with the given specified fields.
 i.e
 - Roll-Number,Name,Mail_Id,PhoneNumber,Password,Gender,Branch
@@ -77,13 +81,9 @@ i.e
 </p>
 
 
+## 04-07-2020
 
-
-
-
-
-
-### Task 5(Context Menu):
+### Task 7(Context Menu):
 * Requirements For Task -5
   - Create Start new Android Project with empty Activity
   - Create TextView or Button or ListView (In Case you want implement ListView you should create ArrayAdapter for getting array data)
@@ -94,12 +94,12 @@ i.e
   </p>
 
   - In Case If are Taking TextView or Button, The screen looks like below.
-  <p align="center">
+<p align="center">
 <img  src="https://lh3.googleusercontent.com/proxy/fIw3KGqlcUMTEYErcMYB5MtFzjpa0d_fo8XUrwwPGX5k0_RwGJvvV2jjOqoxwlt6fR6W6_HtJdEQJPmy-hYuE5KrHO-Vo79S28tKrln-uwPNB5S_4NogIEFqpzNbmuF7LP2gdscNiHlvARivIM3qq8IF8TTjQktbAbpiUr0IXWqH8kRJ" width = "200dp">
 </p>
 
 
-### Task 6(Option Menus Implementation):
+### Task 8(Option Menus Implementation):
 * Requirements For Task -6
   - Create Start new Android Project with empty Activity
   - Implement Options Menu
@@ -107,7 +107,7 @@ i.e
   - when user click share items, we need to share some text through any available shareable apps like Whatsapp, messenger.
   - when user click Dail items, Open dial pad diaply static number.
   - when user click Gallery items, Open Gallery App.
-  <p align="center">
+<p align="center">
 <img  src="https://raw.githubusercontent.com/AP-Skill-Development-Corporation/Android-Internship-SRM/master/Images/TaksImages/options.png" width = "200dp">
 </p>
 
