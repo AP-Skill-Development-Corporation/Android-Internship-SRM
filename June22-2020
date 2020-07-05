@@ -1,0 +1,62 @@
+Good Morning Everyone....
+The session will start with in 5 minuites
+-->Please mute your micro phone and 
+	Turn off your web cams
+-->Please change your name followed by 
+		your rollno - Name
+		
+What is android:
+---------------------
+Android ia mobile platform based linux kernal..
+why we are learning android application development
+-->It is a open source
+-->In the world wide there are 90 % of people are
+using android smart phones
+-->So many jobs are availbale
+Android App Development:
+-------------------------
+Android App:
+-----------------
+which consist of one or more interactive screens
+If you want build the android app:
+------------------------------------
+-->Java(JDK) In our system
+			JDK  and   JRE			
+--> Java and xml 
+--> IDE(Android Studio) and android sdk
+
+Android App Building Blocks:
+----------------------------
+Resources
+Android App Components-->
+	4 components:
+	1.Activity ==> Screen 
+		If you want to create a activity(sreen) in your 
+		application we required two files:
+		1.Java file(activity file)
+		2.xml file(layout file)
+	2.Service ==> It is long running background task
+		--> service is don't have a UI part
+		Ex: Music player
+	3.Broadcast Recivers==>It is regitered for system anouncements
+				Ex:
+				POWER_CONNECTED
+				POWER_DISCONNTECTED
+				AIRPLAINODE_CHANGED
+			
+	4.Content Provider==>
+	Ex:Whats app 
+		X app             Y App
+		X-Database
+		
+Manifest
+Build Configuration
+
+
+
+
+
+
+
+
+
