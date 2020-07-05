@@ -66,7 +66,8 @@
   </p>
 
   - In Case If are Taking TextView or Button, The screen looks like below.
-  <p align="center">
+  
+<p align="center">
 <img  src="https://lh3.googleusercontent.com/proxy/fIw3KGqlcUMTEYErcMYB5MtFzjpa0d_fo8XUrwwPGX5k0_RwGJvvV2jjOqoxwlt6fR6W6_HtJdEQJPmy-hYuE5KrHO-Vo79S28tKrln-uwPNB5S_4NogIEFqpzNbmuF7LP2gdscNiHlvARivIM3qq8IF8TTjQktbAbpiUr0IXWqH8kRJ" width = "200dp">
 </p>
 
@@ -79,7 +80,8 @@
   - when user click share items, we need to share some text through any available shareable apps like Whatsapp, messenger.
   - when user click Dail items, Open dial pad diaply static number.
   - when user click Gallery items, Open Gallery App.
-  <p align="center">
-<img  src="https://raw.githubusercontent.com/AP-Skill-Development-Corporation/Android-Internship-SRM/master/Images/TaksImages/options.png" width = "200dp">
+   
+<p align="center">
+   <img  src="https://raw.githubusercontent.com/AP-Skill-Development-Corporation/Android-Internship-SRM/master/Images/TaksImages/options.png" width = "200dp">
 </p>
 
