@@ -36,7 +36,7 @@
 
 ### Task-3(Login & Registration Pages)
 
-  * Requirements For Task -2
+  * Requirements For Task -3
     - Create Start new Android Project with empty Activity
     - Modify your app screen design should be like below.
     - Your App having Three Activitys.
@@ -52,5 +52,34 @@
 </p>
 
 
-## July1st - 2020
-### Task1:[ExplicitIntent Codelab](https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/index.html?index=..%2F..%2Fandroid-training#0)
+###  Task 4:
+[ExplicitIntent Codelab](https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/index.html?index=..%2F..%2Fandroid-training#0)
+
+### Task 5(Context Menu):
+ * Requirements For Task -5
+  - Create Start new Android Project with empty Activity
+  - Create TextView or Button or ListView (In Case you want implement ListView you should create ArrayAdapter for getting array data)
+  - When we are longpress any view we need to display context menu.
+  - In Case If are Taking ListView, The screen looks like below.
+  <p align="center">
+  <img  src="https://storage.googleapis.com/images.zoftino.com/development/android/android_context_menu_example.png" width = "200dp">
+  </p>
+
+  - In Case If are Taking TextView or Button, The screen looks like below.
+  <p align="center">
+<img  src="https://lh3.googleusercontent.com/proxy/fIw3KGqlcUMTEYErcMYB5MtFzjpa0d_fo8XUrwwPGX5k0_RwGJvvV2jjOqoxwlt6fR6W6_HtJdEQJPmy-hYuE5KrHO-Vo79S28tKrln-uwPNB5S_4NogIEFqpzNbmuF7LP2gdscNiHlvARivIM3qq8IF8TTjQktbAbpiUr0IXWqH8kRJ" width = "200dp">
+</p>
+
+
+### Task 6(Option Menus Implementation):
+ * Requirements For Task -6
+  - Create Start new Android Project with empty Activity
+  - Implement Options Menu
+  - Create Item like (Share, Dail, Gallery)
+  - when user click share items, we need to share some text through any available shareable apps like Whatsapp, messenger.
+  - when user click Dail items, Open dial pad diaply static number.
+  - when user click Gallery items, Open Gallery App.
+  <p align="center">
+<img  src="https://lh3.googleusercontent.com/proxy/fIw3KGqlcUMTEYErcMYB5MtFzjpa0d_fo8XUrwwPGX5k0_RwGJvvV2jjOqoxwlt6fR6W6_HtJdEQJPmy-hYuE5KrHO-Vo79S28tKrln-uwPNB5S_4NogIEFqpzNbmuF7LP2gdscNiHlvARivIM3qq8IF8TTjQktbAbpiUr0IXWqH8kRJ" width = "200dp">
+</p>
+
