@@ -112,3 +112,22 @@ i.e
 <img  src="https://raw.githubusercontent.com/AP-Skill-Development-Corporation/Android-Internship-SRM/master/Images/TaksImages/options.png" width = "200dp">
 </p>
 
+
+### Task 9(RecyclerView):
+##### Requirements For Task-9 
+I
+ - Create Start new Android Project with empty Activity
+ - Adding Dependency
+ - Follow RecyclerView Implementation Steps
+ - Your RecyclerView design should be in below format.
+ - You can use or downalod your images by using this link- [Android Version Images](https://drive.google.com/file/d/1oxD1E0IcuegF4vEU7-9VWx7JBNxATkh0/view?usp=sharing)
+ - Each Row contains Respected Version details only like _Image, Android versions, name, and API level_. if you don't the version please go through this [link](https://www.javatpoint.com/android-versions)
+ - Create Images as integer array, remeaning all are string arrays.
+ 
+<p align="center">
+<img  src="https://github.com/AP-Skill-Development-Corporation/Android-Internship-SRM/blob/master/Images/TaksImages/recyclerview.png?raw=true" width = "600dp">
+</p>
+
+
+
+
