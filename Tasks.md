@@ -96,7 +96,7 @@ i.e
 
   - In Case If are Taking TextView or Button, The screen looks like below.
 <p align="center">
-<img  src="https://lh3.googleusercontent.com/proxy/fIw3KGqlcUMTEYErcMYB5MtFzjpa0d_fo8XUrwwPGX5k0_RwGJvvV2jjOqoxwlt6fR6W6_HtJdEQJPmy-hYuE5KrHO-Vo79S28tKrln-uwPNB5S_4NogIEFqpzNbmuF7LP2gdscNiHlvARivIM3qq8IF8TTjQktbAbpiUr0IXWqH8kRJ" width = "200dp">
+<img  src="https://www.tutlane.com/images/android/android_context_menu_example_diagram.gif" width = "200dp">
 </p>
 
 
@@ -121,7 +121,7 @@ I
  - Follow RecyclerView Implementation Steps
  - Your RecyclerView design should be in below format.
  - You can use or downalod your images by using this link- [Android Version Images](https://drive.google.com/file/d/1oxD1E0IcuegF4vEU7-9VWx7JBNxATkh0/view?usp=sharing)
- - Each Row contains Respected Version details only like _Image, Android versions, name, and API level_. if you don't the version please go through this [link](https://www.javatpoint.com/android-versions)
+ - Each Row contains Respected Version details only like _Image, Android versions, name, and API level_. if you don't the version please go through this [Versions Link](https://www.javatpoint.com/android-versions)
  - Create Images as integer array, remeaning all are string arrays.
  
 <p align="center">
