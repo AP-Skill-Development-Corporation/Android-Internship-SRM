@@ -1,0 +1,36 @@
+AsyncTask:
+-----------
+we have a 5 methods in AsyncTask:
+----------------------------------
+long running tasks(time taking tasks):
+-----------------------------------------
+Network operation
+
+
+1.onPreExcute() --> 
+To display message to the user
+ProgressDialog:
+---------------
+2 types:
+Spinner style
+Horizontal Progress dialog
+2.doInBackground()-->time taking logic
+3.onPostExcute()--->What ever o/p returned in the
+doIn background method that o/p will displayed 
+with in your UI thread
+4.onProgressUpdate()
+-------------------------
+5.publishProgress()
+
+JSON-(Javascript object notation):
+-----------------------------------
+JsonObject --> '{'
+JsonArray  --> '['
+
+
+
+
+
+
+
+
