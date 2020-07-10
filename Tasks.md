@@ -128,6 +128,7 @@ I
 <img  src="https://github.com/AP-Skill-Development-Corporation/Android-Internship-SRM/blob/master/Images/TaksImages/recyclerview.png?raw=true" width = "600dp">
 </p>
 
+## Date: 10-July-2020
 ### Task 10(Covid19Api by using AsyncTask)
 #### Requirements of Task - 10
 - create a one new Android Studio project with the name of **Covid19India**
