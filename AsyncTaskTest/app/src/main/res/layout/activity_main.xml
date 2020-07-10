@@ -20,14 +20,12 @@
         android:text="Search"
         android:onClick="search"
         />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:text="Result"
-        android:textSize="25sp"
-        android:textColor="#061742"
-        android:textStyle="bold"
-        android:id="@+id/textview"
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler"
         />
+
 
 </LinearLayout>

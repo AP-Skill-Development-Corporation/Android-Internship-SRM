@@ -7,6 +7,9 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -15,6 +18,9 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.net.ssl.HttpsURLConnection;
 
 public class MyTask extends AsyncTask<Void,Void,String>
@@ -24,12 +30,12 @@ public class MyTask extends AsyncTask<Void,Void,String>
     String myUrl;
     Context ct;
     ProgressDialog pd;
-    TextView myTextView;
+    RecyclerView myRv;
 
-    public MyTask(MainActivity mainActivity, String bookname, TextView tv) {
+    public MyTask(MainActivity mainActivity, String bookname, RecyclerView rv) {
         ct = mainActivity;
         myUrl=url+bookname;
-        myTextView = tv;
+        myRv = rv;
 
     }
 
@@ -67,18 +73,25 @@ public class MyTask extends AsyncTask<Void,Void,String>
         super.onPostExecute(s);
         //Toast.makeText(ct, ""+s, Toast.LENGTH_SHORT).show();
         pd.dismiss();
+        List<Book> booksList = new ArrayList<>();
         try {
             JSONObject rootJsonObject = new JSONObject(s);
             JSONArray itemsJsonArray =rootJsonObject.getJSONArray("items");
-            JSONObject zeroIndexObject = itemsJsonArray.getJSONObject(0);
-            JSONObject volumeInfoObject = zeroIndexObject.getJSONObject("volumeInfo");
-            String title = volumeInfoObject.optString("title");
-            JSONArray myArray = volumeInfoObject.getJSONArray("authors");
-            String authors = myArray.get(0).toString();
-            Log.i("DATA",title);
-            Log.i("DATA",authors);
-            myTextView.setText("Book Title:"+title+"\n"+"Authors:"+authors);
-            Toast.makeText(ct, ""+title+"\n"+authors, Toast.LENGTH_SHORT).show();
+            for(int i = 0;i<itemsJsonArray.length();i++){
+                JSONObject indexObject = itemsJsonArray.getJSONObject(i);
+                JSONObject volumeInfoObject = indexObject.getJSONObject("volumeInfo");
+                String title = volumeInfoObject.optString("title");
+                JSONArray myArray = volumeInfoObject.getJSONArray("authors");
+                String authors = myArray.get(0).toString();
+                JSONObject imagelinkObject = volumeInfoObject.getJSONObject("imageLinks");
+                String thumbnail = imagelinkObject.getString("thumbnail");
+                Book b = new Book(title,authors,thumbnail);
+                booksList.add(b);
+            }
+            Log.i("SIZE",""+booksList.size());
+            myRv.setLayoutManager(new LinearLayoutManager(ct));
+            myRv.setAdapter(new BooksAdapter(ct,booksList));
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
