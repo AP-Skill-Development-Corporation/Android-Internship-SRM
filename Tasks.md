@@ -128,6 +128,15 @@ I
 <img  src="https://github.com/AP-Skill-Development-Corporation/Android-Internship-SRM/blob/master/Images/TaksImages/recyclerview.png?raw=true" width = "600dp">
 </p>
 
+### Task 10(Covid19Api by using AsyncTask)
+#### Requirements of Task - 10
+- create a one new Android Studio project with the name of **Covid19India**
+- By using the below url read the json data from the server and display that in the recyclerview(The Recyclerview item has to start with Most recent date).
+- [URL](https://api.covid19api.com/dayone/country/IN)
+
+<img src='https://raw.githubusercontent.com/AP-Skill-Development-Corporation/Android-Internship-SRM/master/covid19api.png'>
+
+
 
 
 
