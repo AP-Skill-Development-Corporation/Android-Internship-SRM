@@ -35,7 +35,9 @@ public class InsertActivity extends AppCompatActivity {
         student.setMailID(mail);
         student.setPhoneNumber(mobile);
 
-        MainActivity.database.myDao().insert(student);
+        //MainActivity.database.myDao().insert(student);
+
+        MainActivity.viewModel.insert(student);
 
         Toast.makeText(this, "Data Saved Sucessfully", Toast.LENGTH_SHORT).show();
 
