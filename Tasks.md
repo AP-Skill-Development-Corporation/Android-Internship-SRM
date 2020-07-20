@@ -138,6 +138,19 @@ I
 <img src='https://raw.githubusercontent.com/AP-Skill-Development-Corporation/Android-Internship-SRM/master/covid19api.png'>
 
 
+## Date: 20-July-2020
+### Task 11(RecyclerView):
+##### Requirements For Task-11
+I
+ - Create Start new Android Project
+ - Adding Dependency (Room DataBase,Recyclerview,etc...)
+ - Follow DataBase Steps
+ 
+<p align="center">
+<img  src="https://raw.githubusercontent.com/AP-Skill-Development-Corporation/Android-Internship-SRM/master/Images/TaksImages/database.png" width = "600dp">
+</p>
+
+
 
 
 
